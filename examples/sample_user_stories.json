@@ -1,0 +1,32 @@
+[
+  {
+    "story": "As a registered user, I want to log into my account using my email and password so that I can access my personalized dashboard.",
+    "criteria": [
+      "User can enter valid email and password",
+      "System validates credentials against database",
+      "User is redirected to dashboard on successful login",
+      "Error message shown for invalid credentials",
+      "Account locked after 3 failed attempts"
+    ]
+  },
+  {
+    "story": "As a customer, I want to add items to my shopping cart and proceed to checkout so that I can purchase products online.",
+    "criteria": [
+      "User can add products to cart",
+      "Cart displays correct items and quantities",
+      "User can modify cart contents",
+      "Checkout process calculates total correctly",
+      "Payment is processed securely"
+    ]
+  },
+  {
+    "story": "As a mobile app user, I want to receive push notifications for important updates so that I stay informed about relevant activities.",
+    "criteria": [
+      "Notifications appear on device lock screen",
+      "User can enable/disable notifications",
+      "Notifications are categorized by importance",
+      "Tapping notification opens relevant app section",
+      "Notification history is maintained"
+    ]
+  }
+]
